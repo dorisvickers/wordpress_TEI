@@ -1,11 +1,11 @@
 # TEI XML Display (Metadata) – WordPress Plugin
 
 **Version:** 1.0  
-**Author:** [Doris Vickers](https://ucrisportal.univie.ac.at/de/persons/doris-magdalena-vickers){:target="_blank"}
+**Author:** [Doris Vickers](https://ucrisportal.univie.ac.at/de/persons/doris-magdalena-vickers)
 
 ## Description
 
-This WordPress plugin renders [TEI XML](https://tei-c.org/){:target="_blank"} files with rich features such as gloss tooltips, inline notes, and line numbering. It is especially useful for digital editions of historical texts, poetry, or annotated documents encoded in the TEI standard.
+This WordPress plugin renders [TEI XML](https://tei-c.org/) files with rich features such as gloss tooltips, inline notes, and line numbering. It is especially useful for digital editions of historical texts, poetry, or annotated documents encoded in the TEI standard.
 
 The plugin provides a simple shortcode interface to load and display TEI documents directly within posts or pages.
 
