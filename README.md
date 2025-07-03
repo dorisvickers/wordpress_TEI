@@ -1,7 +1,7 @@
 # TEI XML Display (Metadata) – WordPress Plugin
 
 **Version:** 1.0  
-**Author:** Doris Vickers
+**Author:** [Doris Vickers](https://ucrisportal.univie.ac.at/de/persons/doris-magdalena-vickers)
 
 ## Description
 
