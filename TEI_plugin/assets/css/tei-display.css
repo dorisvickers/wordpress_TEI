@@ -1,0 +1,160 @@
+.tei-output {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
+    counter-reset: linenum;
+}
+
+.tei-controls {
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.tei-button {
+    display: inline-block;
+    padding: 4px 10px;
+    margin-left: 6px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-family: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button {
+    background-color: #f4f4f4;
+    color: #222;
+    border-color: #bbb;
+}
+
+.download-button:hover {
+    background-color: #222;
+    color: #f4f4f4;
+}
+
+.toggle-button {
+    background-color: #9AB87A;
+    color: #222;
+    border-color: #9AB87A;
+}
+
+.toggle-button.off {
+    background-color: #F8B195;
+    border-color: #F8B195;
+    color: #222;
+}
+
+.tei-ref {
+    position: relative;
+    cursor: pointer;
+    color: #00a6ed;
+    border-bottom: 1px #1a0dab;
+}
+
+.tei-ref.objectName {
+    color: #ef476f;
+    border-bottom: 1px green;
+}
+
+.tei-ref.no-gloss {
+    color: inherit !important;
+    border-bottom: none !important;
+    cursor: default !important;
+}
+
+.tei-note {
+    color: #00a9a5;
+    cursor: pointer;
+    font-size: 0.8em;
+    vertical-align: super;
+    padding-left: 2px;
+}
+
+.tei-popup {
+    display: none;
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 8px 10px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    max-width: 400px;
+    z-index: 9999;
+    white-space: normal;
+}
+
+.tei-line {
+    display: block;
+    position: relative;
+    padding-left: 3em;
+    margin-bottom: 0.5em;
+}
+
+.tei-line-num {
+    padding: 0px 20px;
+    font-family: Georgia, serif;
+    max-width: 960px;
+    margin: 0 auto;
+    counter-reset: linenum;
+}
+
+.tei-head {
+    text-align: center; 
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 1em 0 0.5em;
+}
+
+.tei-title {
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-bottom: 0.25em;
+    text-align: center;
+}
+
+.tei-author {
+    font-size: 1.1em;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 0.25em;
+    color: inherit;
+}
+
+.tei-author a {
+    font-size: 1.1em;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0.25em;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.tei-encoder {
+    font-size: 0.9em;
+    font-style: normal;
+    color: inherit;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.tei-index {
+    font-size: 0.95em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.tei-index-link {
+    color: inherit;
+    margin: 0 5px;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.tei-index-link:hover {
+    color: inherit;
+    text-decoration: underline;
+}
