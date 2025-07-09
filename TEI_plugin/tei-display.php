@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TEI XML Display
- * Description: Display TEI XML file with glosses, notes, line numbers, and a paragraph index. Now includes XML upload in admin.
+ * Description: Display TEI XML file with glosses, notes, line numbers, and a paragraph index.
  * Version: 1.0
  * Author: Doris Vickers
  */
